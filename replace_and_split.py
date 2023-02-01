@@ -1,0 +1,13 @@
+print(
+    "\nWrite a false statement with some word that, if replaced, transforms it into a true phrase. Then, press Enter.")
+phrase = input()
+print("\nWrite the word that need to be replaced and press Enter.")
+false_word = input()
+print("\nWrite the word that will replace the previous one, making the phrase be true, and press Enter.")
+true_word = input()
+true_phrase = phrase.replace(false_word, true_word)
+print("\nLie:\n", phrase)
+print("\nTruth:\n", true_phrase)
+split_by_words = true_phrase.split(" ")
+counter = len(split_by_words)
+print("\nNumber of words you wrote:", counter)
