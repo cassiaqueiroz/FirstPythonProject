@@ -14,6 +14,6 @@ split_by_words = text.split(" ")
 number_of_characters = len(split_by_words)
 print("Number of words in the text:", number_of_characters)
 if number_of_characters < 10:
-    print("You typed less than 10 words, try it again.")
+    print("You typed less than 10 words.")
 else:
     print("The last 3 words typed were:", split_by_words[-3:])
