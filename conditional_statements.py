@@ -7,7 +7,7 @@ if age > 75:
 else:
     print("Wait your turn for the vaccine.")
 
-# Input type string
+# Input Type String
 print("\nNow write a text containing at least 10 words with no punctuation and press Enter:")
 text = input()
 split_by_words = text.split(" ")
@@ -17,3 +17,4 @@ if number_of_characters < 10:
     print("You typed less than 10 words.")
 else:
     print("The last 3 words typed were:", split_by_words[-3:])
+
